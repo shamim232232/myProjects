@@ -1,0 +1,81 @@
+*{  
+    font-family: 'Gothic A1', sans-serif;
+    
+    background-color:#8ba5a7;
+
+}
+
+h1{
+     color: white;
+    padding-top: 10px;
+    text-align: center;
+    font-size: 60px;
+    font-family: roboto;
+}
+input{
+    background-color: white;
+    width: 70%;
+    margin-left: 12%;
+    font-size: 20px;
+    padding: 16px 16px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #af9f9f;
+    font-family: Gothic A1;
+    font-weight: 800;
+    outline: none;
+
+}
+textarea{
+    background-color: white;
+    width: 70%;
+    margin-left: 12%;
+    font-size: 20px;
+    padding: 16px 16px;
+    border-radius: 10px;
+    margin-bottom: 25px;
+    border: 1px solid #af9f9f;
+    font-family: Gothic A1;
+    font-weight: 800;
+
+}
+input:focus-within{
+    
+    border-color: rgb(255, 255, 255);
+    border-width: 3px;
+    outline: none;
+    overflow: hidden;
+    transition: .3s;
+    transform: scale(1.1);
+
+}
+textarea:focus-within{
+    
+    border-color: white;
+    border-width: 3px;
+    outline: none;
+    transition: .3s;
+    transform: scale(1.1);
+}
+button{
+    background-color: #00951e;
+    border: 1px solid black;
+    padding: 10px 18px;
+    border-radius: 20px;
+    font-size: 22px;
+    font-family: Gothic A1;
+    font-weight: 800;
+    text-align: center;
+    display: flex;
+    margin: auto;
+    color: black;
+    font-family: Gothic A1;
+    font-weight: 800;
+
+
+
+}
+button:hover{
+    opacity: 80%;
+    cursor: pointer;
+}
